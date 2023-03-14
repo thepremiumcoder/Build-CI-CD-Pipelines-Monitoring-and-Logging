@@ -340,8 +340,8 @@ jobs:
             cd ..
             pwd
             ls -al
-            # Zip the directory
-            # tar -C backend -czvf artifact.tar.gz .
+            Zip the directory
+            tar -C backend -czvf artifact.tar.gz .
 
             cd .circleci/ansible
 
@@ -381,7 +381,7 @@ jobs:
             export API_URL="http://${BACKEND}:3030"
             echo "API_URL=${API_URL}"
 
-            echo "Sleeping for 1.5 minute"
+            echo "Sleeping for 1 minute"
             sleep 60
 
 
