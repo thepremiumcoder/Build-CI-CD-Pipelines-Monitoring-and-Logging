@@ -383,6 +383,10 @@ jobs:
             echo "Sleeping for 1.5 minute"
             sleep 90
 
+            pm2 list
+            
+            pm2 logs
+
             if curl -v "${API_URL}/api/status" | grep "ok"
             then
               return 0
