@@ -509,7 +509,7 @@ jobs:
             else
               echo "Stack is the latest"
             fi
-          
+
 workflows:
   default:
     jobs:
