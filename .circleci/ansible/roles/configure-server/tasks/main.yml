@@ -1,27 +1,28 @@
 ---
-- name: "upgrade packages."
+
+- name: "Update local apt repo"
   become: true
   apt:
-    upgrade: "yes"
-
-- name: "install dependencies."
+    update_cache: yes
+    
+- name: "Update apt packages"
+  become: true
+  apt:
+    upgrade: yes
+    
+- name: "Remove stale dependencies"
+  become: true
+  apt:
+    autoremove: yes
+    
+- name: "Install dependencies [nodejs and npm]"
   become: true
   apt:
     name: ["nodejs", "npm"]
     state: latest
     update_cache: yes
-
-- name: "install n"
-  become: true
-  npm:
-    name: n
-    global: yes
-    production: yes
-
-- name: "install nodejs 13.8.0"
-  become: true
-  shell: n 13.8.0
-
+   
+  # pm = process manager 
 - name: "install pm2"
   become: true
   npm:
@@ -29,3 +30,4 @@
     global: yes
     production: yes
     state: present
+

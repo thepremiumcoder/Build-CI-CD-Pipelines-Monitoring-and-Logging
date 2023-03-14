@@ -1,5 +1,6 @@
 Description: >
   UdaPeople backend stack.
+
 Parameters:
   ID:
     Description: Unique identifier.
@@ -42,3 +43,8 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub backend-${ID}
+          
+  TheEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref EC2Instance
