@@ -1,4 +1,26 @@
 URL 01
 https://github.com/thepremiumcoder/Build-CI-CD-Pipelines-Monitoring-and-Logging
 
+URL 02
+http://udapeople-5201af7.s3-website-us-east-1.amazonaws.com
+-
+http://udapeople-5201af7.s3-website-us-east-1.amazonaws.com/#/employees/new
+
+
+URL 03 (Cloudfront)
+http://d2w9m8rmaa7xup.cloudfront.net
+-
+http://d2w9m8rmaa7xup.cloudfront.net/#/employees/new
+
+
+URL 04
+http://18.235.212.241:3030/api/status
+
+
+URL 5 (Prometheus endpoint)
+http://ec2-54-157-187-118.compute-1.amazonaws.com:9090/targets
+
+
+URL to Video
+https://we.tl/t-7O9W8vLM4s
 
