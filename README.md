@@ -15,9 +15,28 @@ This project will prove the mastery of the following learning objectives:
 
 
 
+### Built With
+
+- [Circle CI](www.circleci.com) - Cloud-based CI/CD service
+- [Amazon AWS](https://aws.amazon.com/) - Cloud services
+- [AWS CLI](https://aws.amazon.com/cli/) - Command-line tool for AWS
+- [CloudFormation](https://aws.amazon.com/cloudformation/) - Infrastrcuture as code
+- [Ansible](https://www.ansible.com/) - Configuration management tool
+- [Prometheus](https://prometheus.io/) - Monitoring tool
+
+
 ### Project Details and Screenshot Reference and Short description of folders and files in the repo
 
-* [.circleci](./.circleci): Directory for the CircleCI build server
+- [.circleci](./.circleci): Directory for the CircleCI build server
+- [.circleci/config.yml](./.circleci/config.yml): CircleCI configuration file
+- [.circleci/ansible](./.circleci/ansible): Directory for Configuration Management and Infastructure Automation using Ansible to configure and deploy servers/infrastructures leveraging on the AWS Cloud Formation Templates
+- [.circleci/files/cloudfront.yml](./.circleci/files/cloudfront.yml): Cloudfront Infrastructure Configuration file
+* [.circleci/files/backend.yml](./.circleci/files/backend.yml): Backend Infrastructure Configuration file
+* [.circleci/files/frontend.yml](./.circleci/files/cloudfront.yml): Frontend Infrastructure Configuration file
+- [backend](./backend): Directory for the Backend Source Code
+- [frontend](./frontend): Directory for the Frontend Source Code
+- [.util/docker-compose.yml](./.util/docker-compose.yml): Docker Compose file for PostgreSql Database
+- [README.md](./README.md): README file
 
 - Screenshots of the various project stages in PNG format, named using the screenshot number listed. These screenshots are included in code repository in the root folder.
   1. Job failed because of compile errors. [[SCREENSHOT01]](./screenshots/SCREENSHOT01.PNG)
@@ -46,14 +65,7 @@ This project will prove the mastery of the following learning objectives:
 
 
 
-### Built With
 
-- [Circle CI](www.circleci.com) - Cloud-based CI/CD service
-- [Amazon AWS](https://aws.amazon.com/) - Cloud services
-- [AWS CLI](https://aws.amazon.com/cli/) - Command-line tool for AWS
-- [CloudFormation](https://aws.amazon.com/cloudformation/) - Infrastrcuture as code
-- [Ansible](https://www.ansible.com/) - Configuration management tool
-- [Prometheus](https://prometheus.io/) - Monitoring tool
 
 ### License
 
