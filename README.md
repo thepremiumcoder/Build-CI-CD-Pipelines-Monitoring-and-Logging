@@ -19,7 +19,7 @@ This project will prove the mastery of the following learning objectives:
 
 For your submission, please submit the following:
 
-- A text file named `urls.txt` [url.txt](./screenshots/url.txt) including:
+- A text file named `urls.txt` [(url.txt)](./screenshots/url.txt) including:
   1. Public Url for GitHub repository  [URL01]
   1. Public URL for S3 Bucket (aka, green candidate front-end) [URL02]
   1. Public URL for CloudFront distribution (aka, blue production front-end) [URL03]
@@ -27,7 +27,7 @@ For your submission, please submit the following:
   1. Public URL to Prometheus Server [URL05]
 
 - Screenshots of the various project stages in PNG format, named using the screenshot number listed. These screenshots are included in code repository in the root folder.
-  1. Job failed because of compile errors. [SCREENSHOT01]
+  1. Job failed because of compile errors. [SCREENSHOT01](./screenshots/SCREENSHOT01.PNG)
   1. Job failed because of unit tests. [SCREENSHOT02]
   1. Job that failed because of vulnerable packages. [SCREENSHOT03]
   1. An alert from one of your failed builds. [SCREENSHOT04]
