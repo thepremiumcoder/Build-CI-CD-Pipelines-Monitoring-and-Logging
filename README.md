@@ -25,7 +25,9 @@ This project will prove the mastery of the following learning objectives:
 
 
 
-### Diagram of CI/CD Pipeline 
+
+
+### Diagram of the CI/CD Pipeline 
 ![Diagram of CI/CD Pipeline we will be building.](udapeople-pipeline.png)
 
 
