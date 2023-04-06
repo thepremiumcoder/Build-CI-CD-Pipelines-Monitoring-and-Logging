@@ -2,13 +2,13 @@
 
 ## CI/CD Pipelines, Monitoring and Logging - Giving Applications Auto-Deploy Superpowers
 
-This project proved the mastery of the following:
+This project demonstrated the mastery of the following:
 
 - Automate and Utilize Deployment Strategies to design and build CI/CD pipelines that support Continuous Delivery processes.
 - Deploying Working, Trustworthy High-Available Application
 - Utilize a configuration management tool to accomplish deployment to cloud-based servers.
 - Surface critical server errors for diagnosis using centralized structured logging.
-- Turn Errors into Sirens
+- Turn Errors into Sirens :: Using Prometheus as a monitoring solution since it is open-source and versatile. Once configured properly, Prometheus will turn our server’s errors into sirens that no one can ignore. Prometheus is also configured to send Alerts to Slack and email when there are downtimes, low memory, low disk space, etc.
 - Explaining the fundamentals and benefits of CI/CD to achieve, build, and deploy automation for cloud-based software products to the UdaPeople Organiztion.
 
 
