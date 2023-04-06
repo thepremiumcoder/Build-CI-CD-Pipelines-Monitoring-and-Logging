@@ -2,7 +2,7 @@
 
 ## CI/CD Pipelines, Monitoring and Logging - Giving Applications Auto-Deploy Superpowers
 
-This project will prove the mastery of the following learning objectives:
+This project proved the mastery of the following:
 
 - Automate and Utilize Deployment Strategies to design and build CI/CD pipelines that support Continuous Delivery processes.
 - Deploying Working, Trustworthy High-Available Application
