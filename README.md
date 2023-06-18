@@ -22,6 +22,9 @@ This project demonstrated the mastery of the following:
 - [CloudFormation](https://aws.amazon.com/cloudformation/) - Infrastrcuture as code
 - [Ansible](https://www.ansible.com/) - Configuration management tool
 - [Prometheus](https://prometheus.io/) - Monitoring tool
+- [Node.js](https://nodejs.org/) - BackEnd JavaScript JavaScript runtime environment
+- [React.js](https://react.dev/) - FrontEnd JavaScript framework 
+
 
 
 
